@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      "node-red-piface",
+      ""
+    ]
+  ],
+  "_from": "node-red-piface@latest",
+  "_id": "node-red-piface@1.0.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/node-red-piface",
+  "_nodeVersion": "4.3.0",
+  "_npmUser": {
+    "email": "contact@cmarquis.net",
+    "name": "ced-dev"
+  },
+  "_npmVersion": "2.14.12",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "node-red-piface",
+    "raw": "node-red-piface",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "node-red-piface",
+  "_where": "",
+  "author": {
+    "email": "contact@cmarquis.net",
+    "name": "ced-dev",
+    "url": "http://www.cmarquis.net"
+  },
+  "dependencies": {
+	"piface": ">= 2.0.0"
+  },
+  "description": "Node-RED nodes to read from and write to a PiFace Digital Raspberry Pi add-on board",
+  "devDependencies": {},
+  "directories": {},
+  "keywords": [
+    "node-red",
+    "piface"
+  ],
+  "license": "MIT",
+  "name": "node-red-piface",
+  "node-red": {
+    "nodes": {
+      "piface": "piface.js"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ced-dev/node-red-piface"
+  },
+  "scripts": {},
+  "version": "1.0.0"
+}
