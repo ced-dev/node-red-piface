@@ -12,6 +12,18 @@ We cannot automatically detect this so the user will have to apply some common s
 Install
 -------
 
+Download, build and install the C libraries
+
+```
+sudo apt-get install automake libtool git
+git clone https://github.com/thomasmacpherson/piface.git
+cd piface/c
+./autogen.sh && ./configure && make && sudo make install
+sudo ldconfig
+cd ../scripts
+sudo ./spidev-setup
+```
+
 Run the following command in your Node-RED user directory - typically `~/.node-red`
 
     npm install node-red-piface
